@@ -78,4 +78,53 @@ class ApplicationController < Sinatra::Base
     get '/kirk-franklin' do
       return erb :kirk_franklin
     end
-end
+    
+    get 'jazz-1' do
+      return erb :jazz_1
+    end
+    
+    get 'jazz-2' do
+      return erb :jazz_2
+    end
+    
+    get 'pop-1' do
+      return erb :pop_1
+    end
+    
+    get 'pop-2' do
+      return erb :pop_2
+    end
+    
+    get 'regular-1' do
+      return erb :pop_1
+    end
+    
+    get 'regular-2' do
+      return erb :pop_2
+    end 
+    
+    get 'vegan-1' do
+      return erb :vegan_1
+    end
+    
+    get 'vegan-2' do
+      return erb :vegan_2
+    end
+    
+    get 'rnb-1' do
+        return erb :rnb_1
+    end
+    
+    get 'rnb-2' do
+      return erb :rnb_2
+    end
+    
+    get 'veg-1' do
+      return erb :veg_1
+    end
+    
+    get 'veg-2' do
+     return erb :veg_2
+   end
+ end
+ 
