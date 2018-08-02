@@ -71,12 +71,12 @@ class ApplicationController < Sinatra::Base
       return erb :allergy_2
     end
     
-    get '/tamela-mann' do
-      return erb :tamela_mann
+    get '/gospel-1' do
+      return erb :gospel_1
     end
     
-    get '/kirk-franklin' do
-      return erb :kirk_franklin
+    get '/gospel-2' do
+      return erb :gospel_2
     end
     
     get 'jazz-1' do
