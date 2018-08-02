@@ -96,11 +96,11 @@ class ApplicationController < Sinatra::Base
     end
     
     get '/regular-1' do
-      return erb :pop_1
+      return erb :regular_1
     end
     
     get '/regular-2' do
-      return erb :pop_2
+      return erb :regular_2
     end 
     
     get '/vegan-1' do
