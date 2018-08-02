@@ -79,7 +79,7 @@ class ApplicationController < Sinatra::Base
       return erb :gospel_2
     end
     
-    get 'jazz-1' do
+    get '/jazz-1' do
       return erb :jazz_1
     end
     
